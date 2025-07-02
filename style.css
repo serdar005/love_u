@@ -1,13 +1,3 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-image: url(cat.png);
-    background-size: cover; /* or use contain or specific dimensions */
-    background-repeat: no-repeat;
-    background-position: right center;
-}
 #btn-make {
   bottom: 200px;
   right: 30px;
@@ -29,10 +19,19 @@ body {
   right: 20px;
 }
 body {
-  background: #000;
-  height: 100vh;
-  overflow: hidden;
-}
+            min-height: 100vh;
+            color: var(--text-color);
+            background-color: var(--light-color);
+            background-image: url('cat.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
 
 #ui .love {
   position: absolute;
