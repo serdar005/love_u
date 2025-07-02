@@ -1,7 +1,6 @@
 * {
     background-image: url('kitty-dark.png');
-    background-size: cover; /* Optional: to cover the entire element */
-    background-repeat: no-repeat; /* Optional: to prevent the image from repeating */
+    
 }
 
 #btn-make {
