@@ -1,13 +1,16 @@
-* {
-    background-image: url('kitty-dark.png');
-    background-size: cover; /* Optional: to cover the entire element */
-    background-repeat: no-repeat; /* Optional: to prevent the image from repeating */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(cat.png);
+    background-size: cover; /* or use contain or specific dimensions */
+    background-repeat: no-repeat;
+    background-position: right center;
 }
-
 #btn-make {
   bottom: 200px;
   right: 30px;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 .div_btn {
   position: fixed;
@@ -24,7 +27,6 @@
 #div_support {
   bottom: 80px;
   right: 20px;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 body {
   background: #000;
